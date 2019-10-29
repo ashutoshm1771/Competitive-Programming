@@ -15,4 +15,7 @@ int main()
 	}
 	cout<<m.upper_bound(2)->first<<" "<<m.upper_bound(2)->second<<endl;
 	cout<<m.lower_bound(2)->first<<" "<<m.lower_bound(2)->second<<endl;
+	map<int,int>m2(m.begin(),m.end());
+	for(map<int,int>::iterator i=m2.begin();i!=m2.end();++i)
+	cout<<i->first<<" "<<i->second<<endl;
 }
