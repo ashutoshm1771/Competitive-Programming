@@ -1,0 +1,69 @@
+<html><head>
+<title>
+BLOOD_BANK
+</title>
+<link rel="stylesheet" type="text/css" href="pdapC.css">
+
+
+
+</head>
+<body bgcolor="pink">
+<h1 align="center">SRKR BLOOD BANK MANAGEMENT SYSTEM</H1>
+<marquee>Need Blood Urgently? Contact Us</marquee><hr>
+<table><tr><td><h4 align="center">DONATE NOW</h4><hr>
+<form method="POST" action="find.php">
+Blood Group:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<input type="radio" name="bg" value="A+ve">A+ve<br>
+<input type="radio" name="bg" value="B+ve">B+ve<br>
+<input type="radio" name="bg" value="AB+ve">AB+ve<br>
+<input type="radio" name="bg" value="O+ve">O+ve<br>
+<input type="radio" name="bg" value="A-ve">A-ve<br>
+<input type="radio" name="bg" value="B-ve">B-ve<br>
+<input type="radio" name="bg" value="AB-ve">AB-ve<br>
+<input type="radio" name="bg" value="O-ve">O-ve<br>
+<br>
+Quantity(*100ml):<input type="number" placeholder="qty" name="qty"><br>
+<input type="submit" value="DONATE">
+<input type="reset" value="Reset Values">
+</form></td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+<td><h4 align="center">Find Quantity</h4><hr><form method="post" action="qty.php">
+Blood Group:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<input type="radio" name="bg2" value="A+ve">A+ve<br>
+<input type="radio" name="bg2" value="B+ve">B+ve<br>
+<input type="radio" name="bg2" value="AB+ve">AB+ve<br>
+<input type="radio" name="bg2" value="O+ve">O+ve<br>
+<input type="radio" name="bg2" value="A-ve">A-ve<br>
+<input type="radio" name="bg2" value="B-ve">B-ve<br>
+<input type="radio" name="bg2" value="AB-ve">AB-ve<br>
+<input type="radio" name="bg2" value="O-ve">O-ve<br>
+<input type="submit" value="Search">
+</form></td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+<td>
+<h4 align="center">Get Blood</h4><hr>
+<form method="post" action="get.php">
+Blood Group:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<input type="radio" name="bg1" value="A+ve">A+ve<br>
+<input type="radio" name="bg1" value="B+ve">B+ve<br>
+<input type="radio" name="bg1" value="AB+ve">AB+ve<br>
+<input type="radio" name="bg1" value="O+ve">O+ve<br>
+<input type="radio" name="bg1" value="A-ve">A-ve<br>
+<input type="radio" name="bg1" value="B-ve">B-ve<br>
+<input type="radio" name="bg1" value="AB-ve">AB-ve<br>
+<input type="radio" name="bg1" value="O-ve">O-ve<br>
+Quantity needed(*100ml):<input type="text" name="getQty"><br>
+<input type="submit" value="Surf">
+</form>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
