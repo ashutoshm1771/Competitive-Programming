@@ -12,6 +12,13 @@ bool is_smart_number(int num) {
     return false;
 }
 
+bool is_smart_number(int num) {
+    int val = (int) sqrt(num);
+    if(num-(val*val)==0)
+        return true;
+    return false;
+}
+
 int main() {
     
     int test_cases;
