@@ -13,6 +13,7 @@ string hackerrankInString(string s) {
     }
     if(j==10) return "YES";
     else return "NO";
+//Function complete
 
 }
 
