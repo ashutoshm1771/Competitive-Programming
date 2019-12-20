@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//Boolean functions
 bool isAlpha(char c)
 {
     if((c>='a' && c<='z') || (c>='A' && c<='Z'))
