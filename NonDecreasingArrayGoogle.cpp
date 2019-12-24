@@ -14,11 +14,11 @@ int main()
 	bool flag=true;
 	for(int i=0;i<n-1;i++)
 	{
-		if(v[i]>v[i+1] && flag=true)
+		if(v[i]>v[i+1] && flag==true)
 		{
 			flag=false;
 		}
-		else if(v[i]>v[i+1] && flag=false){
+		else if(v[i]>v[i+1] && flag==false){
 			cout<<"False";
 			exit(0);
 		}
