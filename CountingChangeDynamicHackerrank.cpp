@@ -14,7 +14,7 @@ vector<string> split(const string &);
  *  1. INTEGER n
  *  2. LONG_INTEGER_ARRAY c
  */
-
+// Dynamic Programming Approach
 long getWays(int n, vector<long> c) {
     int64_t A[c.size()][n+1];
     for(int64_t i=0;i<c.size();i++)
