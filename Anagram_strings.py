@@ -1,3 +1,5 @@
+#Author - Ashutosh Mishra
+
 # function to check if two strings are 
 # anagram or not  
 def check(s1, s2): 
