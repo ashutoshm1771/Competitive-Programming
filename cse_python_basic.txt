@@ -1,0 +1,91 @@
+ 1. Write a script accept a string and count total no of vowels in a
+given string
+2. Write a script accept a string and count total no of each vowel
+separately in a given string
+3.  Write a script accept a string and character and count how many times
+ the given character occured in the given string
+4. Write a script accept a string and count total no.of digits,total no.of
+vowels,total no. of consonants and
+display
+5. Write a script accept a string and reverse the string
+6. Write a script accept a string and character and remove given character
+from a given string
+
+Eg : PAVAN
+    N
+    o/p => PAVA 
+7. Write a script accept a number and find sum of digits of given number
+eg : 3456 => 3+4+5+6
+8. Write a program to compute distance between two points taking input from the user (Pythagorean
+Theorem)
+9. Using a for loop, write a program that prints out the decimal equivalents of 1/2, 1/3, 1/4, . . . ,1/10
+Output must be in the form
+               : 1/2 = 0.5
+                 1/3 = 0.333
+				 1/4 = 
+				 .
+				 .
+				 .
+				 .
+				 1/10 = 0.1
+10. Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+between 2000 and 3200 (both included).
+The numbers obtained should be printed in a comma-separated sequence on a single line.
+11. Write a program which can compute the factorial of a given numbers.
+12. Write a program which accepts a sequence of comma-separated numbers from console and
+generate a list and a tuple which contains every number.
+Suppose the following input is supplied to the program:
+34,67,55,33,12,98
+Then, the output should be:
+[34, 67, 55, 33, 12, 98]
+(34, 67, 55, 33, 12, 98)
+13. Write a program that calculates and prints the value according to the given formula:
+Q = Square root of [(2 * C * D)/H]
+Following are the fixed values of C and H:
+C is 50. H is 30.
+D is the variable whose values should be input to your program in a comma-separated
+sequence.
+Example
+Let us assume the following comma separated input sequence is given to the program:
+100,150,180
+The output of the program should be:
+18,22,24
+(If the output received is in decimal form, it should be rounded off to its nearest value 
+(for example, if the output received is 26.0, it should be printed as 26))
+14.Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
+Suppose the following input is supplied to the program:
+without,hello,bag,world
+Then, the output should be:
+bag,hello,without,world
+15.Write a program that accepts sequence of lines as input and prints the lines after
+making all characters in the sentence capitalized.
+Suppose the following input is supplied to the program:
+Hello world
+Practice makes perfect
+Then, the output should be:
+HELLO WORLD
+PRACTICE MAKES PERFECT
+16.Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
+Suppose the following input is supplied to the program:
+hello world and practice makes perfect and hello world again
+Then, the output should be:
+again and hello makes perfect practice world
+17. Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
+Suppose the following input is supplied to the program:
+Hello world!
+Then, the output should be:
+UPPER CASE 1
+LOWER CASE 9
+18. Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
+Suppose the following input is supplied to the program:
+9
+Then, the output should be:
+11106
+19. Find the sum of all the primes below 20,000.
+20. By considering the terms in the Fibonacci sequence whose values do not exceed four
+million, find the sum of the even-valued terms.
+21. Python Program to Calculate the Number of Words, Number of Characters and whitespace present in   a String
+22. Python Program to Take in Two Strings and Display the Larger String without Using Built-in Functions
+23. Python Program to Form a New String Made of the First 2 and Last 2 characters From a Given String
+24. Python Program to Replace all Occurrences of ‘a’ with $ in a String
+25. Python Program to replace a each vowel with any other character 
