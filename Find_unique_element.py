@@ -1,4 +1,5 @@
 #Author : Ashutosh Mishra
+#Usage of count function
 n=int(input())
 a=list(map(int,input().split()))
 for i in range(n):
