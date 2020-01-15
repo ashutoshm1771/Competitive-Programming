@@ -1,5 +1,6 @@
 #Author : Ashutosh Mishra
 #Usage of count function
+#Inefficient solution
 n=int(input())
 a=list(map(int,input().split()))
 for i in range(n):
