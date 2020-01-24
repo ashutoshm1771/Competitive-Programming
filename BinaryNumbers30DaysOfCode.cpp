@@ -1,5 +1,5 @@
-#Author : Ashutosh Mishra
-
+//Author : Ashutosh Mishra
+//Usage of Bitset
 #include <bits/stdc++.h>
 
 using namespace std;
