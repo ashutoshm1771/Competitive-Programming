@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 #include <iostream>
 #include <cmath>
 using namespace std;
