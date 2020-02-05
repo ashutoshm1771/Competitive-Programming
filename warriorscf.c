@@ -1,3 +1,5 @@
+//Author : Ashutosh Mishra
+
 #include <stdio.h>
 void warriors();
 void sort(int p[],int n);
