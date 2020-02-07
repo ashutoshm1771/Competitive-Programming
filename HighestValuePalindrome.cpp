@@ -1,5 +1,6 @@
 // Author : Ashutosh Mishra
 
+//Hackerrank problem
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
