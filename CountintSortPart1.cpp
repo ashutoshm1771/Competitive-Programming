@@ -1,5 +1,5 @@
-//Author : Ashutosh Mishra
-
+// Author : Ashutosh Mishra
+// Hackerrank Problem Solution
 #include <bits/stdc++.h>
 
 using namespace std;
