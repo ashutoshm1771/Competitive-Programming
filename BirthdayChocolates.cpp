@@ -1,4 +1,4 @@
-#Author : AShutosh Mishra
+#Author : Ashutosh Mishra
 
 #include <bits/stdc++.h>
 

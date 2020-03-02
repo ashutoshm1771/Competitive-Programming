@@ -1,5 +1,5 @@
 // Author : Ashutosh Mishra
-
+// Greedy Algorithm
 #include <bits/stdc++.h>
 
 using namespace std;
