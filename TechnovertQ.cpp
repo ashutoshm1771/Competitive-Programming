@@ -1,5 +1,5 @@
 // Author : Ashutosh Mishra
-
+// Console Based Application
 #include <bits/stdc++.h>
 using namespace std;
 
