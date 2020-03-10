@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 #include<iostream>
 #include<string.h>
 using namespace std;
