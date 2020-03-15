@@ -1,0 +1,43 @@
+﻿Z-SERIES
+
+Hanifa was studying functional mathematics. While studying, she got introduced to a Z-series. The Z-series is defined as follows : Z[i] = Z[i-1] + Z[i-2] + 1. For example, {2,3,6,10} is a Z series. Hanifa is given few numbers. Her task is find out the Z-series, with maximum size, out of the given numbers. If there are multiple Z-series with maximum size, print the Z-series with smallest number. Help poor Hanifa out!
+
+Input Format
+
+The first line contains N - (the number of elements) Second line contains an array of N elements.
+
+Constraints
+
+1 <= N <= 1000
+
+1 <= A[i] <= 1000, for each i ( 1 <= i <= N)
+
+Output Format
+
+Print the Z-series with maximum size, in a single line, separated by space.
+
+Sample Input 0
+
+7
+2 3 4 5 6 7 10    
+Sample Output 0
+
+2 3 6 10
+Explanation 0
+
+The possible Z-series of size 3 are :
+    2 3 6
+    2 4 7
+    2 7 10
+    3 6 10
+    4 5 10
+The possible Z-series of size 4 are :
+    2 3 6 10
+Since it is the only Z-series of the longest size, we print it as the output.
+Sample Input 1
+
+4
+1 2 5 9
+Sample Output 1
+
+No Zseries
