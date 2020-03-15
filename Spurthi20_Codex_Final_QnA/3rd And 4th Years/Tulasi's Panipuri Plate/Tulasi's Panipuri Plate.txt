@@ -1,0 +1,48 @@
+﻿Tulasi's Panipuri Plate
+
+Tulasi loves Panipuri. She has a plate of Panipuri, which has a limited capacity. Initially, the plate is full. Before she adds up a piece of panipuri, she has to eat the panipuri in the first position in her plate. Each panipuri has a given taste unit. After every addition of a new panipuri, find out the panipuri, with maximum taste unit, present in her plate.
+
+Input Format
+
+First line contains - N - denoting the capacity of her plate Second line contains - An array of integers 'A', denoting the taste units of panipuris currently present in her plate. Third line contains - Q - the number of panipuris to be added Q lines follow. Each line contains an integer Qi, denoting the taste unit of new panipuri to be added in Tulasi's plate.
+
+Constraints
+
+1 <= N <= 10^6
+
+1 <= Q <= 10^6
+
+1 <= A[i] <= 10^16
+
+Output Format
+
+Print Q integers, without any separators, each integer representing the maximum taste unit of the panipuri present in her plate at that moment.
+
+Sample Input 0
+
+6
+6 8 7 5 3 4
+4
+1 
+2
+9
+6 
+Sample Output 0
+
+8799
+Explanation 0
+
+Initially, Tulasi's plate contains 6 panipuris of taste units {6,8,7,5,3,4}.
+She eats the panipuri of taste unit 6, and adds a panipuri of taste unit 1 to her       plate.
+So, the panipuri with maximum taste unit is 8.
+Her plate now looks like {8,7,5,3,4,1}.
+
+Then she eats the panipuri with taste unit 8, and adds one of taste unit 2.
+So, the plate looks like {7,5,3,4,1,2}.
+Panipuri with maximum taste unit in her plate currently is 7.
+
+Deletion of 7, and addition of 9 in her plate makes her plate look like                     {5,3,4,1,2,9}.
+Panipuri with maximum taste unit, now, is 9.
+
+Deletion of 5 and addition of 6 in her plate makes it look like {3,4,1,2,9,6}.
+Maximum taste unit still remains 9.
