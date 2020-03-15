@@ -1,0 +1,42 @@
+﻿XOR Game 
+
+Today, as a friendship gift, Bhavana gave Ramya n integers a1,a2,…,an and challenged her to choose an integer X such that the value max( 1 ≤ i ≤ n (ai⊕X)) is minimum possible, where ⊕ denotes the bitwise XOR operation.
+
+As always, Ramya is too lazy, so you decided to help her and find the minimum possible value of max(1 ≤ i ≤ n(ai⊕X)).
+
+Input Format
+
+The first line contains integer n (1 ≤ n ≤ 10^5).
+
+The second line contains n integers a1,a2,…,an (0 ≤ ai ≤ 2^30−1).
+
+Constraints
+
+1 ≤ n ≤ 10^5
+
+0 ≤ ai ≤ (2^30)−1 , for 1<=i<=n
+
+Output Format
+
+Print one integer — the minimum possible value of max. 1 ≤ i ≤ n(ai⊕X).
+
+Sample Input 0
+
+3
+1 2 3
+Sample Output 0
+
+2
+Explanation 0
+
+We can choose X as 3
+Sample Input 1
+
+2
+1 5
+Sample Output 1
+
+4
+Explanation 1
+
+We can choose X as 5
