@@ -1,0 +1,43 @@
+﻿String Compression
+
+Ms. Hashmi is preparing for her speech contest. She encounters a sentence(in the form of a string, without separation), with repeated or non-repeated letters. She felt bored to count the numbers of repetition of similar consecutive letters in her speech. So she requested you to write a program that manages the string as given below :
+
+Sentence : aaabbbbcccdaaeeeeb
+
+Format : a3b4c3d1a2e4b1
+
+She wants the numbers of total entities in the format above. For the above instance, it would be 14( count(a,3,b,4,c,3,d,1,a,2,e,4,b,1) ).
+
+Note that even if the number extends single digit, the count remains 1 for it. Instance, aabbbbbbbbbbbcc would be a2b11c3. Yet, the count would remain 6.
+
+Input Format
+
+First line contains the number of test-cases t.
+
+t lines follow:
+
+Each line of a test-case contains a string.
+
+Constraints
+
+1 <= t <= 10^4
+
+1 <= length(string) <= 100
+
+Output Format
+
+For each test case, print the total number of entities in the format mentioned in the description above, in each line.
+
+Sample Input 0
+
+2
+aabbbcdda
+bbbccccccccccccd
+Sample Output 0
+
+10
+6
+Explanation 0
+
+For the first example, the format is a1b3c1d2a1. So the number of entities becomes 10.
+For the second example, the format is b3c12d1. So the number of entities becomes 6.

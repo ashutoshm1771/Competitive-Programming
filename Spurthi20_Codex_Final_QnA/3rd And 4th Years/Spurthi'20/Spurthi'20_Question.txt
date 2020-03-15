@@ -1,0 +1,54 @@
+﻿Spurthi'20
+
+Oh, Spurthi'20. The time to gather all your friends and reflect on the heartwarming events of the past Spurthi'19...
+
+'n' friends are attending an event of Spurthi20 which can be represented as a number line. The i-th friend is in a team with an integer coordinate xi. The i-th friend can join the team with coordinates xi−1, xi+1 or stay at xi. Each friend is allowed to shift no more than once.
+
+For all friends 1 ≤ xi ≤ n holds, however, they can join teams with coordinates 0 and n+1 (if their teams are at 1 or n, respectively).
+
+For example, let the initial positions be x=[1,2,4,4]. The final ones then can be [1,3,3,4], [0,2,3,3], [2,2,5,5], [2,1,3,5] and so on. The number of occupied teams is the number of distinct positions among the final ones.
+
+So all friends choose the moves they want to perform. After that the number of occupied teams is calculated. How many minimum and maximum number of occupied teams can there be?
+
+Input Format
+
+The first line contains a single integer n (1≤n≤2⋅105) — the number of friends.
+
+The second line contains n integers x1,x2,…,xn (1≤xi≤n) — the coordinates of the teams of the friends.
+
+Constraints
+
+1 ≤ n ≤ 2*10^5
+
+1 ≤ xi ≤ n , 1 ≤ i ≤ n
+
+Output Format
+
+Print two integers — the minimum and the maximum possible number of occupied teams after all moves are performed.
+
+Sample Input 0
+
+4
+1 2 4 4
+Sample Output 0
+
+2 4
+Explanation 0
+
+In this example friends can go to [2,2,3,3]. So friend 1 goes to x[1]+1, friend 2           stays in his team x[2], friend 3 goes to x[3]−1 and friend 4 goes to x[4]−1. [1,1,3,3],     [2,2,3,3] or [2,2,4,4] are also all valid options to obtain 2 occupied houses.
+
+For the maximum number of occupied teams, friends can go to [1,2,3,4] or to [0,2,4,5],      for example.
+Sample Input 1
+
+9
+1 1 8 8 8 4 4 4 4
+Sample Output 1
+
+3 8
+Sample Input 2
+
+7
+4 3 7 1 4 3 3
+Sample Output 2
+
+3 6
