@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+// Author : Ashutosh Mishra
+
 #include<stdio.h>
 
 //using namespace std;
