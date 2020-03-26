@@ -1,4 +1,4 @@
-#!/bin/python3
+# Author : Ashutosh Mishra
 
 import math
 import os
