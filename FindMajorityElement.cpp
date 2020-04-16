@@ -1,6 +1,7 @@
 // Author : Ashutosh Mishra
 // Moore's Voting Algorithm
 
+
 #include<iostream>
 #include<vector>
 using namespace std;

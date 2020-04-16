@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -24,7 +26,7 @@ int main()
     vector<int> ans;
     if(sa.size()>sb.size())
     {
-        cout<<"Hello World a"<<endl;
+        //cout<<"Hello World a"<<endl;
         cout<<sa.size()<<endl;
         for(int i=0;i<sa.size();i++)
         {
@@ -33,7 +35,7 @@ int main()
     }
     else
     {
-        cout<<"Hello World b"<<endl;
+        //cout<<"Hello World b"<<endl;
         cout<<sb.size()<<endl;
         for(set<int>::iterator it=sb.begin();it!=sb.end();it++)
         {
