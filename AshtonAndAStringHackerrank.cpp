@@ -1,4 +1,4 @@
-#Author - Ashutosh Mishra
+// Author - Ashutosh Mishra
 
 #include<bits/stdc++.h>
 using namespace std;
