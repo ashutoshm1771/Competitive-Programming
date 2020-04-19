@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 n=input()
 c=0
 res=''
