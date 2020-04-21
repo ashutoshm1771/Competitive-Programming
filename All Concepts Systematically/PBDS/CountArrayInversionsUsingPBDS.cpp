@@ -4,16 +4,15 @@
 using namespace std;
 using namespace __gnu_pbds;
 #define ordered_set tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update>
-int invCount(vector<int> v)
+int countInv(vector<int> v)
 {
+    int ic=0,key;
     ordered_set oset;
     oset.insert(v[0]);
-    int ic=0,key;
-    for(int i=1;i<v.size();i++)
-    {
+    for(int i=1;i<v.size();i++){
         oset.insert(v[i]);
         key=oset.order_of_key(v[i]+1);
-        ic+=oset.size()-key;
+        ic += oset.size()-key;
     }
     return ic;
 }
@@ -23,7 +22,9 @@ int main()
     cin>>n;
     vector<int> v(n);
     for(int i=0;i<n;i++)
+    {
         cin>>v[i];
-    cout<<invCount(v)<<endl;
+    }
+    cout<<countInv(v)<<endl;
     return 0;
 }
