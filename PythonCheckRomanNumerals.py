@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 thousand = 'M{0,3}'
 hundred = '(C[MD]|D?C{0,3})'
 ten = '(X[CL]|L?X{0,3})'
