@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 import math
 s=input()
 sm=s.replace(" ","")
