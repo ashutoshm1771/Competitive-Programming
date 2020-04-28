@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_STRING_LENGTH 6
