@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 // Suffix array construction in O(L log^2 L) time.  Routine for
 // computing the length of the longest common prefix of any two
 // suffixes in O(log L) time.
