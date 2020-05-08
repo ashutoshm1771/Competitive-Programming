@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 #include<iostream>
 using namespace std;
 int getVal(int n)
