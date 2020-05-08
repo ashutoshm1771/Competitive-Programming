@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 package data_structures;
 
 // static Range Minimum Query, DP Solution

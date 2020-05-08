@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 def happy(n, b):
     for a in set(b):
         if a != "_" and b.count(a) == 1:

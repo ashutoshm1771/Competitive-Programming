@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 package other_algorithms;
 
 import java.io.BufferedReader;
