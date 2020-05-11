@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 package geometry;
 
 public class Circle { 	//equation: (x-c.x)^2 + (y-c.y)^2 = r^2
