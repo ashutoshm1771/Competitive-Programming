@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 // This solution wouldn't get accepted. Just a clever, but brute force approach. Less efficient than the other solution.
 
 #include <cmath>
