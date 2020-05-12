@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 package strings;
 
 public class SuffixTrie {

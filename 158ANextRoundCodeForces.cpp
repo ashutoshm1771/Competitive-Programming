@@ -1,4 +1,5 @@
-//Author : Ashuosh Mishra
+//Author : Ashutosh Mishra
+
 #include <iostream>
 #include <vector>
 #include <cmath>
