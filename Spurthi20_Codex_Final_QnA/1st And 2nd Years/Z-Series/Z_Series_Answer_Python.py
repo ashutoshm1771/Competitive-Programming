@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 n=int(input())
 a=[int(x) for x in input().split()]
 if len(a)<3:
