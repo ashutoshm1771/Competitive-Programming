@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 def multiply(num1, num2): 
 	len1 = len(num1) 
 	len2 = len(num2) 
