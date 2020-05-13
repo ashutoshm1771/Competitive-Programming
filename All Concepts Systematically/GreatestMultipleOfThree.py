@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 MAX_SIZE = 10
 def sortCount(arr, n): 
 	count = [0]*MAX_SIZE 
