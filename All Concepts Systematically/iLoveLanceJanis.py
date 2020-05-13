@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 def solution(x):
     x=list(x)
     for i in range(len(x)):
