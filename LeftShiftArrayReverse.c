@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 #include<stdio.h>
 
 void reverse(int a[],int low,int high)
