@@ -1,3 +1,5 @@
+# Author : Ashutosh Mishra
+
 def solution(x,y):
 	mach, facula = int(x), int(y)
 	cnt = 0
