@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 package math;
 
 public class Polynomial {
