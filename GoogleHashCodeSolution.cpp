@@ -1,6 +1,5 @@
 // Author : Ashutosh Mishra
 
-
 #include<iostream>
 #include<algorithm>
 #include<vector>
