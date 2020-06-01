@@ -17,7 +17,6 @@ vector<int> countingSort(vector<int> arr) {
             v.push_back(i);
     return v;
 }
-
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));

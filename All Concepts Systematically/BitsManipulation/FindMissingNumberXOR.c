@@ -1,3 +1,5 @@
+// Author : Ashutosh Mishra
+
 #include<stdio.h>
 int main()
 {
