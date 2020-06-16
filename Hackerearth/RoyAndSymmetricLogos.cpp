@@ -2,7 +2,9 @@
 
 #include<iostream>
 #include<vector>
+
 using namespace std;
+
 bool isSym(vector<string> v)
 {
     int n=v.size();
