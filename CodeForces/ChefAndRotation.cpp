@@ -7,6 +7,7 @@
 #define IOS ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 using namespace std;
 using namespace __gnu_pbds;
+
 typedef long long int ll;
 int main()
 {
