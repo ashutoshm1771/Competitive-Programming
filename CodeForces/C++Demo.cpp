@@ -2,6 +2,7 @@
 
 #include<iostream>
 using namespace std;
+
 void print(char c, int times) {
 	while(times--) cout << c;
 }
