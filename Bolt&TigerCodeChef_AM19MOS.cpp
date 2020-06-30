@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 typedef long int li;
 typedef long double ld;
