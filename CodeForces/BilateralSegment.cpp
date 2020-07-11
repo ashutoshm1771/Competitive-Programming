@@ -6,6 +6,7 @@
 using namespace std;
 typedef long long int ll;
 vector<int> v;
+
 int main()
 {
     int t;
