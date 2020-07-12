@@ -26,4 +26,5 @@ for possiblity in all_possible:
             if p_num != s_num:
                 cost += abs(p_num - s_num)
     diffs.append(cost)
+   
 print(min(diffs))
