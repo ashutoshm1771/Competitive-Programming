@@ -6,6 +6,7 @@ using namespace std;
 /*
  * Create classes Rectangle and RectangleArea
  */
+
 class Rectangle
 {
     public:
