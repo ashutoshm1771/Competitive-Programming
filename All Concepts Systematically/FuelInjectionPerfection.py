@@ -1,6 +1,7 @@
 # Author : Ashutosh Mishra
 
 
+
 import math   
 def longDivision(number, divisor):   
     ans = "";  
