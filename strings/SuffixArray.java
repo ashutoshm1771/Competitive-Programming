@@ -54,4 +54,5 @@ public class SuffixArray {
 		for(int i = 0; i < n; ++i)
 			SA[i] = tmp[i];
 	}
+	
 }
