@@ -2,6 +2,7 @@
 
 package strings;
 
+
 public class Z_Algorithm {
 
 	static int[] zAlgo(char[] s)
