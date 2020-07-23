@@ -6,6 +6,7 @@
 //#define debug(x) cout<<x<<" ";
 using namespace std;
 vector<int> v;
+
 string checkValid()
 {
 	bool fl=true;
