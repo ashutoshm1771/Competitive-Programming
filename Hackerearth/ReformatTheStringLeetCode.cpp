@@ -2,6 +2,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
+
 bool isChar(char x)
     {
         if(x>='a' && x<='z')return true;
