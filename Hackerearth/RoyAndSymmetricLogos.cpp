@@ -1,7 +1,6 @@
 // Author : Ashutosh Mishra
 
 #include<iostream>
-
 #include<vector>
 
 using namespace std;
@@ -17,6 +16,7 @@ bool isSym(vector<string> v)
     }
     return true;
 }
+
 int main()
 {
     int t;
