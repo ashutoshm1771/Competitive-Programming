@@ -1,7 +1,6 @@
 // Author : Ashutosh Mishra
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int eggDrop(int n, int k) { // n eggs and k floors
