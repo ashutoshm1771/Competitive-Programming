@@ -11,6 +11,7 @@ struct Node{
 		left=right=NULL;
 	}
 };
+
 typedef struct Node* tptr;
 
 void inorder(tptr root)
