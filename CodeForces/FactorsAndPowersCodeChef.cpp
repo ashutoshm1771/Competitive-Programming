@@ -5,6 +5,7 @@
 
 using namespace std;
 typedef long long int ll;
+
 vector<ll> findFac(ll n)
 {
 	vector<ll> res;
