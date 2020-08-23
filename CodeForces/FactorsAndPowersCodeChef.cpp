@@ -15,6 +15,7 @@ vector<ll> findFac(ll n)
 	res.push_back(n);
 	return res;
 }
+
 int main()
 {
 	IOS
