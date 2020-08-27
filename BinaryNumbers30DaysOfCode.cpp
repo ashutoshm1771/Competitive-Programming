@@ -4,8 +4,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 int main()
 {
     int n,c=0,cp=0;
