@@ -3,7 +3,6 @@
 //Usage of Bitset STL
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main()
