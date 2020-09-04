@@ -4,7 +4,6 @@
 #include <stdlib.h>
 
 #define MAX_HEIGHT 41
-
 struct box
 {
 	/**
