@@ -1,7 +1,6 @@
 // Author : Ashutosh Mishra
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 // Complete the cavityMap function below.
