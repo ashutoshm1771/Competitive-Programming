@@ -1,5 +1,4 @@
 # Author : Ashutosh Mishra
-
 #!/bin/python3
 
 import math
