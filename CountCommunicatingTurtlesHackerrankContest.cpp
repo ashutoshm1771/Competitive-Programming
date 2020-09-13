@@ -30,6 +30,7 @@ int checkRow(vector<vector<int> > &grid, int i,int m)
     }
     return mr;
 }
+
 int checkCol(vector<vector<int> > &grid, int j,int m)
 {
     int mr=0,d=0,c=0,x;
