@@ -9,7 +9,6 @@
 
 using namespace std;
 
-
 int checkRow(vector<vector<int> > &grid, int i,int m)
 {
     int mr=0,c=0,x;
