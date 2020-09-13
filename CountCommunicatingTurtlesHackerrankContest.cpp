@@ -52,6 +52,7 @@ int checkCol(vector<vector<int> > &grid, int j,int m)
     }
     return mr;
 }
+
 int main()
 {
     int m,n,c,total=0,i,j;
