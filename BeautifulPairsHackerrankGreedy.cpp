@@ -14,7 +14,6 @@ int beautifulPairs(vector<int> A, vector<int> B) {
         m1[A[i]]++;
     for (int i=0;i<B.size();i++)
         m2[B[i]]++;
-
     map<int, int>::iterator it = m1.begin();
     while(it!=m1.end())
     {
