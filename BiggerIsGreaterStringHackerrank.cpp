@@ -9,6 +9,7 @@ bool isAlpha(char c)
     if(c>='a' && c<='z') return true;
     return false;
 }
+
 string biggerIsGreater(string w) {
     int c=0;
     for(int i=w.size()-2;i>=0;i--)
