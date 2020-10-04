@@ -56,7 +56,6 @@ int main()
             fout << " ";
         }
     }
-
     fout << "\n";
 
     fout.close();
