@@ -75,7 +75,6 @@ vector<string> split_string(string input_string) {
     while (input_string[input_string.length() - 1] == ' ') {
         input_string.pop_back();
     }
-
     vector<string> splits;
     char delimiter = ' ';
 
