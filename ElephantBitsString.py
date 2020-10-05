@@ -12,6 +12,7 @@ for i in range(len(n)):
         res+="1"
     else:
         pass
+   
 l=len(res)
 if c==0:
     res=res[:l-1]
