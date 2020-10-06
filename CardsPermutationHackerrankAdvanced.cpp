@@ -77,7 +77,6 @@ namespace solution{
         printf("%d\n", add(ans, fac[cnt]));
     }
 }
-
 int main(){
     using namespace solution;
     Prepare();
