@@ -6,6 +6,7 @@
 #include<climits>
 using namespace std;
 vector<int> v;
+
 int crest()
 {
 	int mind=INT_MAX,maxd=-INT_MAX,mini,maxi,td;
