@@ -9,7 +9,6 @@ int main() {
     cin >> n;
     vector<int> r(n); 
     vector<int> c(n); 
-    
     int numcandies=1; 
     c[0]=1;
     cin >> r[0];
