@@ -18,7 +18,6 @@ int main() {
         else if (r[i]<=r[i-1]) numcandies=1;
         c[i]=numcandies;
     }
-
     numcandies=1;
     long total=c[n-1];
     for (int i=n-2;i>=0;i--) {
