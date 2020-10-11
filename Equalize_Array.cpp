@@ -32,7 +32,6 @@ int equalizeArray(vector<int> v) {
     }
     sort(c.begin(),c.end(),f);
     return v.size()-c[0]-1;
-
 }
 
 int main()
