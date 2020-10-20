@@ -5,7 +5,6 @@
 #include <math.h>
 #include <stdlib.h>
 
-//Complete the following function.
 
 void calculate_the_maximum(int n, int k) {
   int i,j,ma=0,mo=0,mx=0,a,b,c;
