@@ -7,9 +7,6 @@
 #include<string>
 using namespace std;
 
-/*
-Enter code for class Student here.
-*/
 class Student
 {
     public:
