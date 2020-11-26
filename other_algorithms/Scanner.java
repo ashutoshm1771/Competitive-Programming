@@ -11,6 +11,7 @@ import java.util.StringTokenizer;
 class Scanner 
 {
 	StringTokenizer st;
+
 	BufferedReader br;
 
 	public Scanner(InputStream s){	br = new BufferedReader(new InputStreamReader(s));}
