@@ -25,5 +25,6 @@ int main()
         cout<<c-1<<endl;
         else cout<<0<<endl;
     }
+
     return 0;
 }
