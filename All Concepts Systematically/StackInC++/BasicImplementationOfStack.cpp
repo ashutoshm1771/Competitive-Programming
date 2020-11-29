@@ -29,6 +29,7 @@ bool Stack::push(int x)
 		return true;
 	}
 }
+
 bool Stack::isEmpty()
 {
 	return top<0;
