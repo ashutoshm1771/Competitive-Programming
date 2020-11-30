@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class HLD {
-
 	//1.Take input and processing(precomputation + query)
 	static int N, nodeVal[];				//input
 	static ArrayList<Integer>[] adjList;	//input
