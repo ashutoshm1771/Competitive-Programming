@@ -23,6 +23,7 @@ bool Stack::push(int x)
 		cout<<"Overflow";
 		return false;
 	}
+
 	else{
 		s[++top]=x;
 		cout<<"Pushed"<<endl;
