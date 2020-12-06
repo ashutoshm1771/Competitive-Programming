@@ -35,6 +35,7 @@ bool Stack::isEmpty()
 {
 	return top<0;
 }
+
 int Stack::pop()
 {
 	if(top<0){ 
