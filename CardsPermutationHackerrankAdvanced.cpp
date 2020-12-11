@@ -78,6 +78,7 @@ namespace solution{
     }
 }
 int main(){
+    
     using namespace solution;
     Prepare();
     Solve();
