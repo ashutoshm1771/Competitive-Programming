@@ -15,6 +15,7 @@ int maxSumCont()
 	}
 	return msf;
 }
+
 int main()
 {
 	int n;
