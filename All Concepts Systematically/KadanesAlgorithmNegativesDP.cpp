@@ -5,6 +5,7 @@
 
 using namespace std;
 vector<int> v;
+
 int maxSumCont()
 {
 	int currMax=v[0],msf=v[0];
