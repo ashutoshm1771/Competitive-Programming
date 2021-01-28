@@ -34,6 +34,7 @@ int minSteps(vector<int>& v)
 		}
 	}
 }
+
 int main()
 {
 	int n;
