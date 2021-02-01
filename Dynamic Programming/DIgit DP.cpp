@@ -2,6 +2,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+
 typedef long long ll;
 
 long long dp[20][180][2];
