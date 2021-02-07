@@ -34,6 +34,7 @@ void solve()
     }
     cout<<tot-act<<endl;
 }
+
 int main()
 {
     IOS
