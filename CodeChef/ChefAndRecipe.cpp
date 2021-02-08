@@ -30,6 +30,7 @@ bool check(vector<int> v)
     }
     return true;
 }
+
 int main()
 {
     IOS 
