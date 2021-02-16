@@ -4,6 +4,7 @@
 #include<vector>
 using namespace std;
 vector<int> v;
+
 int maxSumCont()
 {
 	int msf=0,meh=0;
