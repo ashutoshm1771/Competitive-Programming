@@ -9,4 +9,5 @@ int main()
     cin>>n;
     if(isHappy(n))
         cout<<
+        
 }
