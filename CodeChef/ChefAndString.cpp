@@ -32,5 +32,6 @@ int main()
         if(isSame(s))cout<<"YES"<<endl;
         else cout<<"NO"<<endl;
     }
+    
     return 0;
 }
