@@ -31,6 +31,7 @@ void solve()
     if(s<=24*5)cout<<"No"<<endl;
     else cout<<"Yes"<<endl;
 }
+
 int main()
 {
     IOS
