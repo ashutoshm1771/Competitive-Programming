@@ -42,6 +42,7 @@ int minNum(string s)
     }
     return ans;
 }
+
 void solve()
 {
     int n; cin>>n;
