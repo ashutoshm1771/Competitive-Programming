@@ -50,6 +50,7 @@ void solve()
     cin>>s;
     cout<<minNum(s)<<endl;
 }
+
 int main()
 {
     IOS
