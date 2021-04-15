@@ -44,6 +44,7 @@ vector<vector<string>> displayTable(vector<vector<string>>& v) {
         }
         return res;
     }
+
 void disp(vector<vector<string> > v)
 {
     for(int i=0;i<v.size();i++)
