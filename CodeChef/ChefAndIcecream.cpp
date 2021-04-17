@@ -111,6 +111,7 @@ bool second(vector<int> v)
     if(fl)return true; //NO
     else return false; //YES
 }
+
 void solve()
 {
     int n;
