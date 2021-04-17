@@ -65,6 +65,7 @@ bool first(vector<int> v)
     if(fl)return true; //NO
     else return false; //YES
 }
+
 bool second(vector<int> v)
 {
     int n=v.size();
