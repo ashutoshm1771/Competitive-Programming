@@ -125,6 +125,7 @@ void solve()
         else cout<<"NO"<<endl;
     else cout<<"NO"<<endl;
 }
+
 int main()
 {
     IOS
