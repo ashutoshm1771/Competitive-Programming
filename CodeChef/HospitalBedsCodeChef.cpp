@@ -3,6 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define IOS ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+
 bool isSafe(vector<vector<bool> > v)
 {
     for(int i=1;i<v.size()-1;i++)
