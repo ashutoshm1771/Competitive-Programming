@@ -18,6 +18,7 @@ using namespace __gnu_pbds;   // *(oset.find_by_order(a)); --> (a-1)th smallest 
 #define all(v) v.begin(),v.end();
 using namespace std;
 typedef long long int ll;
+
 vi h;
 int getP(int p,int l,int st,int n)
 {
