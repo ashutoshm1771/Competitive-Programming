@@ -8,6 +8,7 @@
 
 using namespace std;
 vector<int> v;
+
 int main()
 {
     IOS
