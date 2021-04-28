@@ -62,6 +62,9 @@ int main()
 
     int result = beautifulPairs(A, B);
 
+    
+    
+
     fout << result << "\n";
 
     fout.close();
