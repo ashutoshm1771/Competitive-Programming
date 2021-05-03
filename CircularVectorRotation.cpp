@@ -70,6 +70,7 @@ int main()
         }
     }
 
+    
     fout << "\n";
 
     fout.close();
