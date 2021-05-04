@@ -6,7 +6,6 @@ using namespace std;
 
 vector<string> split_string(string);
 
-
 // Complete the cutTheSticks function below.
 vector<int> cutTheSticks(vector<int> arr) {
     vector<int> v;
