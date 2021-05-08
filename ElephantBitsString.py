@@ -3,6 +3,7 @@
 n=input()
 c=0
 res=''
+
 for i in range(len(n)):
     if(n[i]=='0' and c==0):
         c+=1
