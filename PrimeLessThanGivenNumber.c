@@ -28,4 +28,5 @@ int main()
 		n-=2;
 	}	
 	if(m>=2)printf("%d",2);
+	return 0;
 }
