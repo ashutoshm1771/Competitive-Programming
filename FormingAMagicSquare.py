@@ -8,7 +8,7 @@ for s_i in range(3):
    s_t = [int(s_temp) for s_temp in input().strip().split(' ')]
    s.append(s_t)
 
-all_possible = [
+all_possible = [   # Clever method of solving the problem
             [[8, 1, 6], [3, 5, 7], [4, 9, 2]],
             [[6, 1, 8], [7, 5, 3], [2, 9, 4]],
             [[4, 9, 2], [3, 5, 7], [8, 1, 6]],
