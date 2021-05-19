@@ -99,7 +99,6 @@ char* get_input_text() {
         if (i != paragraph_count - 1)
             strcat(doc, "\n");
     }
-
     char* returnDoc = (char*)malloc((strlen (doc)+1) * (sizeof(char)));
     strcpy(returnDoc, doc);
     return returnDoc;
