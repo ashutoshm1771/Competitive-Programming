@@ -11,7 +11,6 @@ using namespace std;
 class Difference {
     private:
     vector<int> elements;
-  
   	public:
   	int maximumDifference;
       int diff=0;
