@@ -20,6 +20,7 @@ int main()
 		if(j>n-1)j=0;
 		num++;
 	}
+	
 	for(i=0;i<n;i++){
 	for(j=0;j<n;j++)
 	printf("%d ",a[i][j]);
