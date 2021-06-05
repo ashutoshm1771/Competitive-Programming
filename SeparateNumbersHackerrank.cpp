@@ -6,6 +6,7 @@ using namespace std;
 #define ll long long
 //A FUNCTION TO CHECK LEADING ZERO
 // LOGIC IS SIMPLE NUMBER OF DIGIT IN THE NUMBER FORMED MUST BE EQUAL TO THE NUMBER OF THE DIGIT WE ARE RUNNING LOOP FOR
+
 bool checkLeadingZero(ll next_num,ll temp_dig)
 {
  ll count=0;
