@@ -36,7 +36,6 @@ int findLuckyDates(int d1, int m1, int y1, int d2, int m2, int y2) {
     storeMonth();
 
     int result = 0;
-
     while(true) {
         int x = d1;
         x = x * 100 + m1;
