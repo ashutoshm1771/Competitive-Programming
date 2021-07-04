@@ -1,6 +1,7 @@
 // Author : Ashutosh Mishra
 
 #include<iostream>
+
 using namespace std;
 
 void permute(string a,int l,int r)
