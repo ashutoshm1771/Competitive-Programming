@@ -19,6 +19,7 @@ using namespace __gnu_pbds;   // *(oset.find_by_order(a)); --> (a-1)th smallest 
 #define fo3(i,s) for(int i=0;s[i];i++)
 #define fo4(x,s) for(auto x: s)
 #define all(v) v.begin(),v.end();
+
 using namespace std;
 typedef long long int ll;
 
