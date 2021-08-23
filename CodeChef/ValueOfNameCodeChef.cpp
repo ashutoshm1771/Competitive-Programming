@@ -9,6 +9,7 @@ bool isVowel(char c)
     return true;
     return false;
 }
+
 int main()
 {
     long MOD=1e9+7;
