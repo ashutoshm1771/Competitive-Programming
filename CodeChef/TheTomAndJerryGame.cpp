@@ -33,7 +33,7 @@ void solve()
         cout<<t/2<<endl;
         return;
     }
-    if(t&&(!(t&(t-1)))){
+    if(t&&(!(t&(t-1)))){    // bit manip way of checking whether a number is a power of 2 or not
         cout<<0<<endl;
         return;
     }
