@@ -1,4 +1,4 @@
-//Author : Ashutosh Mishra
+//Author : Aashutosh Mishra
 
 #include<iostream>
 using namespace std;
