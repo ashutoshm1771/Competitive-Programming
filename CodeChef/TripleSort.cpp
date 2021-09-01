@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     IOS 
-    
+    // Sort an array such that every 3 consecutive elements is in ascending order.
 
     return 0;
 }
