@@ -3,6 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Hard and fast method to check whether a character is vowel or not
 bool isVowel(char c)
 {
     if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
