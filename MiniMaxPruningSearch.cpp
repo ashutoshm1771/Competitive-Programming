@@ -20,6 +20,7 @@ int log2(int n)
 {
 	return (n==1)? 0 : 1+log2(n/2);
 }
+
 int main()
 {
 	int scores[]={3,5,2,9,12,5,23,23};
