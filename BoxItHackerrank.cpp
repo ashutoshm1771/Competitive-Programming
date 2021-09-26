@@ -1,7 +1,5 @@
 // Author : Ashutosh Mishra
 
-// Write your Student class here
-
 class Student
 {
     public:
